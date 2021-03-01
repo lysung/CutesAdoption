@@ -20,7 +20,6 @@ buildscript {
     ext.coroutines_version = '1.4.2'
 
     repositories {
-        maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         google()
         jcenter()
     }
@@ -32,12 +31,11 @@ buildscript {
 }
 
 plugins {
-    id 'com.diffplug.spotless' version '5.10.2'
+    id 'com.diffplug.spotless' version '5.7.0'
 }
 
 subprojects {
     repositories {
-        maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         google()
         jcenter()
     }

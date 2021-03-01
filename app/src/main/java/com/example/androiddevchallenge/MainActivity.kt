@@ -16,12 +16,10 @@
 package com.example.androiddevchallenge
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.androiddevchallenge.data.AnimalRepository
-import com.example.androiddevchallenge.model.Animal
 
 class MainActivity : AppCompatActivity() {
 
